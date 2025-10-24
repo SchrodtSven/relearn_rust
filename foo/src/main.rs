@@ -1,12 +1,7 @@
 fn main() {
-    let x = 5;
+   let mut s = String::from("hello");
 
-    let x = x + 1;
+    s.push_str(", world!"); // push_str() appends a literal to a String
 
-    {
-        let x = x * 2;
-        println!("The value of x in the inner scope is: {x}");
-    }
-
-    println!("The value of x is: {x}");
+    println!("{s}"); // this will print `hello, world!`
 }
