@@ -17,3 +17,6 @@ Visiting ["the book"](https://doc.rust-lang.org/stable/book/)
 - [x] Ownership, References, Borrowing
 - [x] Slices
 - [x] Structs
+- [x] Method Syntax
+- [x] Enums
+- [ ] Packages, Crates, and Modules
