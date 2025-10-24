@@ -10,6 +10,17 @@ Stuff to be moved to [What’s the Story?](https://github.com/SchrodtSven/WhatsT
 
 All data stored on the *stack* </var>* **must have a known, fixed size**. Data with an unknown size at compile time or a size that might change must be stored on the *heap* instead.
 
+### Stack operations
+
+```mermaid
+sequenceDiagram
+    Program->>Stack: push(23)
+    Program->>Stack: push(42)
+    Program->>Stack: pop()
+    Stack-->>Program: 42
+
+```
+
 ## Heap
 
 - is less organized
