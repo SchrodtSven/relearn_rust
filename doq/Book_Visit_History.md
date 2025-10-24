@@ -13,5 +13,7 @@ Visiting ["the book"](https://doc.rust-lang.org/stable/book/)
 <time datetime="2025-10-24">2025-10-24</time>
 
 - [x] Programming a Guessing Game
-- [ ] Common Programming Concepts
-- [ ] tbc
+- [x] Common Programming Concepts
+- [x] Ownership, References, Borrowing
+- [x] Slices
+- [x] Structs

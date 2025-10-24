@@ -86,7 +86,7 @@ fn plus_one(x: i32) -> i32 {
 - **Expressions** *evaluate to a resultant value*.
 
 ```rust
-// the expression inside brackets evaluates to 4
+// the expression inside curly brackets evaluates to 4
 let y = {
         let x = 3;
         x + 1
