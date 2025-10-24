@@ -32,3 +32,15 @@ let s1 = String::from("hello");
 let s2 = s1; // s1 is no longer valid!
 println!("{s1}, world!");
 ```
+
+#### Scope and Assignment
+
+```rust
+   let mut s = String::from("hello");
+    s = String::from("ahoy");
+
+    println!("{s}, world!");
+
+
+```
+[<img src = "https://doc.rust-lang.org/book/img/trpl04-05.svg" width="650">]
