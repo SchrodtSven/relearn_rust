@@ -24,7 +24,7 @@ In other words, there are two important points in time here:
 
 #### Moving 
 
-> [!WARN]
+> [!CAUTION]
 > This example won't compile!!!
 
 ```rust
