@@ -44,3 +44,22 @@ println!("{s1}, world!");
 
 ```
 <img src = "https://doc.rust-lang.org/book/img/trpl04-05.svg" width="550">
+
+#### Variables and Data Interacting with Clone
+
+```rust
+let s1 = String::from("hello");
+let s2 = s1.clone();
+println!("s1 = {s1}, s2 = {s2}");
+```
+
+#### Stack-Only Data: Copy
+
+> [!NOTE]
+> This example works and is valid: ** The reason is that types such as integers that have a known size at compile time are stored entirely on the stack, so copies of the actual values are quick to make. **
+
+```rust
+let x = 5;
+let y = x;
+println!("x = {x}, y = {y}");
+```
