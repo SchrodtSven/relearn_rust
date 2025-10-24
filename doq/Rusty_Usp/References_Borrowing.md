@@ -34,5 +34,34 @@ fn change(some_string: &String) {
 }
 ```
 
-> [!INFO]
-> Just as variables are immutable by default, so are references. We’re not allowed to modify something we have a reference to.
+> [!IMPORTANT]
+> Just as variables are **immutable by default, so are references**. We’re not allowed to modify something we have a reference to.
+
+## Mutable References
+
+- First we change ```s``` to be ```mut```
+- Then we create a mutable reference with ```&mut s``` where we call the ```change``` function, and
+- update the function signature to accept a mutable reference with ```some_string: &mut String```.
+- This makes it very clear that the change function will mutate the value it borrows.
+
+```rust
+fn main() {
+    let mut s = String::from("hello");
+
+    change(&mut s);
+}
+
+fn change(some_string: &mut String) {
+    some_string.push_str(", world");
+}
+```
+
+> [!IMPORTANT]
+> Mutable references have one big restriction: if you have a mutable reference to a value, **you can have no other references to that value**. This code that attempts to create two mutable references to ```s``` will fail
+
+## The Rules of References
+
+Let’s recap what we’ve discussed about references:
+
+- At any given time, you can have either one mutable reference or any number of immutable references.
+- References must always be valid.
