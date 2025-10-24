@@ -43,4 +43,4 @@ println!("{s1}, world!");
 
 
 ```
-[<img src = "https://doc.rust-lang.org/book/img/trpl04-05.svg" width="650">]
+<img src = "https://doc.rust-lang.org/book/img/trpl04-05.svg" width="550">
