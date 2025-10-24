@@ -13,6 +13,13 @@ All data stored on the *stack* </var>* **must have a known, fixed size**. Data w
 ### Stack operations
 
 ```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    primaryColor: "#00ff00"
+    secondaryColor: "#003300"
+---
 sequenceDiagram
     Program->>Stack: push(23)
     Program->>Stack: push(42)
