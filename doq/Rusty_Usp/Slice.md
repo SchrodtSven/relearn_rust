@@ -61,7 +61,7 @@ let slice = &s[..];
 
 let a = [1, 2, 3, 4, 5];
 
-//Just as we might want to refer to part of a string, we might want to refer to part of an array. We’d do so like this:
+// Just as we might want to refer to part of a string, we might want to refer to part of an array. We’d do so like this:
 
 let a = [1, 2, 3, 4, 5];
 let slice = &a[1..3];
