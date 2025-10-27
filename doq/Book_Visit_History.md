@@ -19,4 +19,7 @@ Visiting ["the book"](https://doc.rust-lang.org/stable/book/)
 - [x] Structs
 - [x] Method Syntax
 - [x] Enums
+
+<time datetime="2025-10-27">2025-10-27</time>
+
 - [ ] Packages, Crates, and Modules
